@@ -1,0 +1,10 @@
+.percent {
+position: absolute;
+left: 50%;
+transform: translate(-50%, 0);
+font-size: 40px;
+bottom: 52.5%;
+}
+.outer {
+  position: relative;
+}

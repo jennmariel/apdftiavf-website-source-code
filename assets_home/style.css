@@ -1,0 +1,68 @@
+/*CSS for parallax effect*/
+body, html {
+  height: 100%;
+}
+.parallax {
+  background-image: url('tomato_black.png');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+
+main{
+  position: absolute;
+  top: 50px;
+  left: 7.5%;
+  right: 7.5%;
+  bottom: 0;
+  padding: 1rem;
+}
+
+#content{
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-wrapper{
+  overflow-y: scroll;
+  flex-grow: 1;
+  background: #b2d8d8;
+}
+
+.table-wrapper th{
+    position: sticky;
+    top: 0;
+}
+
+/*to make the table look neat and responsive*/
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th{
+   color: white;
+   background: teal;
+}
+
+td,th{
+  padding: 10px;
+  text-align: left;
+}
+
+/*Used to add text inside doughnut chart*/
+.percent {
+position: absolute;
+left: 50%;
+transform: translate(-50%, 0);
+font-size: 40px;
+bottom: 52.5%;
+}
+
+.outer {
+  position: relative;
+}
