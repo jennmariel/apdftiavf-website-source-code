@@ -1,0 +1,25 @@
+.search-container{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container .search-input{
+    width: 20vh;
+    background: transparent;
+    border: none;
+    outline:none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.search-container .search-btn {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.search-container .search-btn .fa{
+    color: teal;
+}
