@@ -49,7 +49,7 @@ $sec = "5";
      <button class="w3-button" title="">More   <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-card-4 w3-bar-block">
        <a href="https://mega.nz/folder/TthR0I6S" target="_blank" class="w3-bar-item w3-button">Documentations</a>
-       <a href="https://mega.nz/folder/TthR0I6S" target="_blank" class="w3-bar-item w3-button">Full Code</a>
+       <a href="https://github.com/jennmariel/apdftiavf-website-source-code" target="_blank" class="w3-bar-item w3-button">Full Code</a>
        <button onclick="document.getElementById('id01').style.display='block'" class="w3-bar-item w3-button w3-hover-red">Logout</button>
       </div>
     </div>
